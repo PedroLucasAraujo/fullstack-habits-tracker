@@ -1,7 +1,7 @@
 import { Check } from "phosphor-react";
 import * as Checkbox from "@radix-ui/react-checkbox";
 import { FormEvent, useState } from "react";
-import { api } from "../lib/axios";
+import api from "../lib/axios";
 
 const availableWeekDays = [
   "Sunday",
